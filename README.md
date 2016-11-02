@@ -1,3 +1,4 @@
+
 # javascript 
 
 标签（空格分隔）： js 
@@ -115,7 +116,30 @@
 </body>
 </html>
 ```
+### className
+object.className=classname
+```js
+function add(){
+ var text= document.getElementById("text");
+ text.className="one";
+}
+```
+> add():    onclick="add()";
+> var：定义一个名为text的变量，获取到dom中ID为text的元素，然后将它的class改为.one
 
+#学习小结
+```js
+function list(){
+   var txt= confirm("你确定要出发吗？");
+    if (txt==true){
+        document.write("加油");
+    } 
+    else{
+        document.write("看看其它吧");
+    }
+}
+<a href="#" onclick="list()">点击</a>
+```
 
 
 
